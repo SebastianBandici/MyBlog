@@ -16,25 +16,7 @@
         {% else %}
             <title>django blog</title>
         {% endif %}
-        <style>
-            .compressed {
-                display: none;
-            }
-        </style>
-        <script>
-            function toggleContent() {
-                var compressedElement = document.getElementById("compressed");
-                var expandedElement = document.getElementById("expanded");
-    
-                if (compressedElement.style.display === "none") {
-                    compressedElement.style.display = "block";
-                    expandedElement.style.display = "none";
-                } else {
-                    compressedElement.style.display = "none";
-                    expandedElement.style.display = "block";
-                }
-            }
-        </script>
+        
     </head>
     <body>
         <header class="site-header">
